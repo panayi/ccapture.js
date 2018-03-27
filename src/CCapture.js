@@ -2,6 +2,10 @@
 
 "use strict";
 
+var Tar = require('./tar.js');
+var download = require('./download.js');
+var GIF = require('./gif.js').GIF;
+
 var objectTypes = {
 'function': true,
 'object': true
