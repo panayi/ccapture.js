@@ -4,7 +4,7 @@
 
 var Tar = require('./tar.js');
 var download = require('./download.js');
-var GIF = require('./gif.js').GIF;
+var GIF = require('./gif.js');
 
 var objectTypes = {
 'function': true,
