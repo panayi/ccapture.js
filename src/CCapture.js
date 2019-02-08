@@ -3,6 +3,7 @@
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   var Tar = require('./tar.js');
   var download = require('./download.js');
+  var WebMWriter = require('./web-writer-0.2.0.js');
 }
 
 "use strict";
